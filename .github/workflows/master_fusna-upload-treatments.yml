@@ -39,4 +39,4 @@ jobs:
           app-name: 'fusna-upload-treatments'
           slot-name: 'Production'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5F568F0EFD1A4793976F25E39374D145 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17008F04EEA04DA8AE9ACE1BDA831B3C }}
